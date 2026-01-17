@@ -1,0 +1,14 @@
+package in.co.rays;
+
+public class PrimeNumber {
+	public static void main(String[] args) {
+		int i = 7;
+		if (i % 2 != 0) {
+			System.out.println("number is prime: "+ i);
+		}
+		else {
+			System.out.println("the number is not prime: "+ i);
+		}
+	}
+
+}
