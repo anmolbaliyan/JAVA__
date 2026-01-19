@@ -3,7 +3,7 @@ import java.lang.String;
 
 public class StringCharacter {
 	public static void main(String[] args) {
-		String name = "Vijay Dinanath Cauhan";
+		String name = "Vijay Dinanath Chauhan";
 		
 		System.out.println("7th character is - " + name.charAt(6));
 	}
