@@ -19,12 +19,14 @@ public class TestPerson {
  		System.out.println(p1.getName());
  		System.out.println(p1.getdob());
  		System.out.println(p1.getAddress());
+ 		System.out.println("p1 age: " + p1.getAge(p1.getdob()));
  		
  		System.out.println("---------------------------");
  		
  		System.out.println(p2.getName());
  		System.out.println(p2.getdob());
  		System.out.println(p2.getAddress());
+ 		System.out.println("p2 age: " + p2.getAge(p2.getdob()));
 	}
 
 }
