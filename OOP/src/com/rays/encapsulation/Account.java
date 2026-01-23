@@ -29,5 +29,20 @@ public class Account {
 	public double getaccBalance() {
 		return this.accBalance;
 	}
+	
+	public void deposit ( double amt) {
+		this.accBalance = this.accBalance + amt;
+		System.out.println("balane after deposit is : " + this.accBalance);
+	}
+	
+	public void withdrawl( double amt) {
+		if (amt > this.accBalance) {
+			System.out.println("insufficient funds error :");
+		}
+		else {
+			this.accBalance = this.accBalance - amt;
+			System.out.println("balane after withdrawl is : " + this.accBalance);
+		}
+	}
 
 }
