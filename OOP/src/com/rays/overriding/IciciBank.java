@@ -5,7 +5,7 @@ public class IciciBank extends Banks{
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return super.getName();
+		return "ICICI BANK";
 	}
 	
 	public double InterestRate() {
