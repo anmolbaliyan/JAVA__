@@ -6,7 +6,7 @@ public class Banks {
 		return"RBI BANK";
 	}
 	
-	public double InteresrRate() {
+	public double InterestRate() {
 		return 11.1;
 	}
 
