@@ -17,7 +17,7 @@ public class Shape {
 		this.borderwidth = borderwidth;
 	}
 	public void area(){
-		System.out.println("the area is not provided by the class ! ");
+		System.out.println("the area is not provided by the class that is required ! ");
 	}
 	
 	
