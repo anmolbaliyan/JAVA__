@@ -8,7 +8,7 @@ public class IciciBank extends Banks{
 	}
 	
 	public double InterestRate() {
-		return 10.5;
+		return 10.8;
 
 	}
 
