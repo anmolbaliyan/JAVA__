@@ -9,7 +9,7 @@ public class AxisBank extends Banks {
 	
 	@Override
 	public double InterestRate() {
-		return 11.22;
+		return 11.34;
 	}
 
 }
