@@ -9,7 +9,7 @@ public class HdfcBank extends Banks{
 	
 	@Override
 	public double InterestRate() {
-		return 9.5;
+		return 9.6;
 	}
 
 }
