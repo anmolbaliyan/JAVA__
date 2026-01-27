@@ -18,8 +18,8 @@ public class Rectangle extends Shape{
 	}
 	
 	@Override
-	public void area() {
-		System.out.println(length * width);
+	public double area() {
+		return length * width;
 	}
 	
 

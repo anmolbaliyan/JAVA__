@@ -13,8 +13,8 @@ public class Circle extends Shape {
 	}
 	
 	@Override
-	public void area() {
-		System.out.println(Math.PI * radius * radius);
+	public double area() {
+		return Math.PI * radius * radius;
 	}
 
 }
