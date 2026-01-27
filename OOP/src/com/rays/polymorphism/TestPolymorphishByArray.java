@@ -20,7 +20,7 @@ public class TestPolymorphishByArray {
 		t.setBase(45);
 		t.setHeight(67);
 		
-		for (int i = 0;i < s.length;i++) {
+		for (int i = 0;i<s.length;i++) {
 			
 			System.out.println(s[i].area());
 		}
