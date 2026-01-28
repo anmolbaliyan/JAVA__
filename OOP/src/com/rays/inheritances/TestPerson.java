@@ -1,4 +1,4 @@
-package com.rays.inheritance;
+package com.rays.inheritances;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package com.rays.inheritance;
+package com.rays.inheritances;
 
 public class Triangle extends Shape{
 	private int base;
