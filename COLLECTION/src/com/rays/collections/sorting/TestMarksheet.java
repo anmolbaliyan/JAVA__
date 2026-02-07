@@ -8,12 +8,12 @@ public class TestMarksheet {
 	
 	public static void main(String[] args) {
 		
-		Marksheet m1 = new Marksheet("Ram", "101", 45);
-		Marksheet m2 = new Marksheet("Shyam", "102", 78);
-		Marksheet m3 = new Marksheet("Kamal", "106", 88);
-		Marksheet m4 = new Marksheet("Aman", "103", 69);
-		Marksheet m5 = new Marksheet("Pawan", "104", 35);
-		Marksheet m6 = new Marksheet("Rakesh", "105", 55);
+		Marksheet m1 = new Marksheet("101", "Ram", 45);
+		Marksheet m2 = new Marksheet("102", "Shyam", 78);
+		Marksheet m3 = new Marksheet("106", "kamal", 88);
+		Marksheet m4 = new Marksheet("103", "Aman", 88);
+		Marksheet m5 = new Marksheet("104", "Pawan", 35);
+		Marksheet m6 = new Marksheet("105", "Rakesh", 55);
 		
 		ArrayList<Marksheet> list = new ArrayList<Marksheet>();
 		
@@ -28,7 +28,7 @@ public class TestMarksheet {
 		
 		Collections.sort(list);
 		
-		System.out.println(list);
+		list.forEach(System.out::println);
 		
 	}
 
