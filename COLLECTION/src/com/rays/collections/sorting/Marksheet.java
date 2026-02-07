@@ -20,7 +20,7 @@ public class Marksheet implements Comparable<Marksheet> {
 
 			return this.rollno.compareTo(o.rollno);
 		}
-		return this.phy - o.phy;
+		return o.phy - this.phy;
 	}
 
 	@Override
