@@ -5,9 +5,9 @@ import java.util.Collections;
 import java.util.stream.Collectors;
 
 public class TestContestWinner {
-	
+
 	public static void main(String[] args) {
-		
+
 		ArrayList<Contestent> list = new ArrayList<Contestent>();
 
 		list.add(new Contestent("Ram", "7875896985"));
@@ -25,14 +25,13 @@ public class TestContestWinner {
 
 		// get valid phoneNo
 		list.stream().map(e -> e.phoneno).filter(e -> e.length() == 10).forEach(System.out::println);
-
 		System.out.println("--------------");
 
 		// remove duplicate phoneNo
 		list.stream().map(e -> e.phoneno).filter(e -> e.length() == 10).distinct().forEach(System.out::println);
-		
+
 		System.out.println("--------------");
-		
+
 		// shuffle phoneNo
 		list.stream().map(e -> e.phoneno).filter(e -> e.length() == 10).distinct()
 				.collect(Collectors.collectingAndThen(Collectors.toList(), e -> {

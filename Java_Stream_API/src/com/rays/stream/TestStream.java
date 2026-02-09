@@ -34,7 +34,7 @@ public class TestStream {
 		list.stream().map(e -> e.toUpperCase()).distinct().forEach(System.out::println);
 		
 		System.out.println("------Filter-------");
-		list.stream().filter(e -> e.startsWith("k")).distinct().forEach(System.out::println);
+		list.stream().filter(e -> e.startsWith("K")).distinct().forEach(System.out::println);
 		
 	}
 
