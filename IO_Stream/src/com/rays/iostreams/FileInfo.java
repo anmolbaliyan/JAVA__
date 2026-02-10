@@ -6,7 +6,7 @@ import java.util.Date;
 public class FileInfo {
 
 	public static void main(String[] args) {
-		File file = new File("/Users/anmolkumarbaliyan/Desktop/IO/Helloo.txt");
+		File file = new File("/Users/anmolkumarbaliyan/Desktop/IO/Helloo.txt.rtf");
 
 		if (file.exists()) {
 

@@ -6,7 +6,7 @@ public class ReadTextFile {
 	
 	public static void main(String[] args) throws Exception{
 		
-		FileReader file = new FileReader("/Users/anmolkumarbaliyan/Desktop/IO/Helloo.txt");
+		FileReader file = new FileReader("/Users/anmolkumarbaliyan/Desktop/IO/Helloo.txt.rtf");
 		
 		int i = file.read();
 		
