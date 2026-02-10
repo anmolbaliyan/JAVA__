@@ -1,0 +1,23 @@
+package in.co.rays;
+
+public class Armstrong {
+	public static void main(String[] args) {
+		int n = 371;
+		int temp = 0;
+		int n2 = n;
+		int r = 0;
+		
+		while (n2 != 0) {
+			r = n2%10;
+			temp = temp + r*r*r;
+			n2 = n2/10;
+		}
+		if (temp == n) {
+			System.out.println("the number is Armstrong " + temp);
+		}
+		else  {
+			System.out.println("the number is not Armstrong " + temp);
+		}
+	}
+
+}
